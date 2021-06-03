@@ -1,10 +1,7 @@
-.full-size {
-    height: calc(86vh - 100px);
-}
-
 .caixa-azul {
-    background-color: #51A5C9 ;
+    background-color: #51A5C9;
     background-attachment: fixed;
+    height: calc(100vh - 200px);
 }
 
 .click:hover {
@@ -12,7 +9,14 @@
 }
 
 #girl {
-    padding-top: 80px;
-    background-attachment: fixed;
-    
+    padding-top: 90px;
 }
+
+
+
+/*@media (max-width: 600px) {
+
+    #girl {
+        display: none;
+    }
+}*/
