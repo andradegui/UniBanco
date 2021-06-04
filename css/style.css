@@ -2,6 +2,8 @@
     background-color: #51A5C9;
     background-attachment: fixed;
     height: calc(100vh - 50%);
+    padding-top: 90px;
+    border-radius: 5px;
 }
 
 .click:hover {
@@ -24,9 +26,42 @@
     width: 45px;
 }
 
+.full-size {
+    height: calc(80vh - 80px);
+}
+
+.centraliza {
+    width: 170px;
+}
+
+.caixa-accordion {
+    background-color: #51A5C9;
+    background-attachment: fixed;
+    height: calc(80vh - 80%);
+    border-radius: 5px;
+}
+
+.accordion-item {
+    background-color: transparent!important;
+}
+
+.accordion-button {
+    font-weight: bold;
+}
+
+.accordion-body {
+    color: white;
+}
+
+.centraliza-accordion {
+    padding-bottom: 50px;
+}
+
 .quebra-linha {
     display: block;
 }
+
+
 
 
 
@@ -35,6 +70,17 @@
     .div-unibanco {
         height: 200px;
         width: 515px;
+        
     }
+
+    .responsive {
+        margin-right: 280px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+   
+
+   
 
 }

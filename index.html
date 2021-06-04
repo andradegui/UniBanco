@@ -20,10 +20,10 @@
 
 <body>
     <!--MENU-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white shadow-lg">
             <div class="container">
-                <a href="#" class="navbar-brand">
+                <a href="#" class="navbar-brand pt-2">
                     <img src="/imagens/Logo-Unibanco.png" alt="">
                     <h1 class="d-none">UniBanco</h1>
                 </a>
@@ -48,15 +48,15 @@
             </div>
         </nav>
     </header>
-
+    <!--INFO-SITE-->
     <main>
         <!--CONHEÇA UNIBANCO-->
-        <section class="caixa-azul">
+        <section class="caixa-azul" id="home">
             <div class="container">
                 <div class="row">
                     <div class="col-8 justify-content-center d-flex align-items-center alinha">
                         <p
-                            class="div-unibanco justify-content-center d-flex align-items-center col-8 fw-bold fs-3 text-center">
+                            class="div-unibanco justify-content-center d-flex align-items-center col-8 fw-bold fs-3 text-center responsive">
                             Chegou o banco dos universitários! Conheça o UniBanco ;)
                         </p>
                     </div>
@@ -67,28 +67,219 @@
                 </div>
             </div>
         </section>
-
         <!--VANTAGENS DO BANCO-->
-        <section class="container pt-3 ">
+        <section class="container pt-3">
             <p class="d-flex justify-content-center align-items-center fw-bolder fs-4">
                 Em sua jornada acadêmica, tenha uma vida financeira mais leve!
             </p>
-            <ul class="fs-5 d-flex justify-content-start justify-content-xxl-center navbar-nav pt-1">
+            <ul class="fs-5 d-flex justify-content-center align-items-center navbar-nav pt-1">
                 <li class="fw-bold">
                     <img src="/imagens/checked.png" alt="" class="checked">
-                    100% Online
+                    100% Online, resolva tudo pelo app
                 </li>
                 <li class="fw-bold pt-4">
                     <img src="/imagens/checked.png" alt="" class="checked">
-                    Sem tarifas
+                    Sem tarifas e taxa zero para investir
                 </li>
                 <li class="fw-bold pt-4">
                     <img src="/imagens/checked.png" alt="" class="checked">
-                    Financiamento com taxas reduzidas 
+                    Financiamento com taxas reduzidas
+                </li>
+                <li class="fw-bold pt-4">
+                    <img src="/imagens/checked.png" alt="" class="checked">
+                    Atendimento 24 horas pelo chat do app
                 </li>
             </ul>
         </section>
+        <!--PROPOSTA DO BANCO-->
+        <section class="container pt-5">
+            <div class="row">
+                <div class="col-xl justify-content-center d-flex">
+                    <img src="/imagens/cartao.png" alt="">
+                </div>
+
+                <div class="col-sm justify-content-center text-center d-flex px-5 ">
+                    <p class="fs-5 pt-5">
+                        <i> "Nossa premissa é conseguir na época universitária do jovem, proporcionar o máximo de
+                            descontos e diminuir tarifas no que o estudante precisar, e contamos com parcerias de
+                            universidades para valores especiais para mensalidades de cursos superiores, venha ser
+                            UNI!"</i> - CEO Guilherme Lima
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--APP UNIBANCO-->
+        <section class="container pt-5">
+
+            <div class="justify-content-center d-flex text-center">
+                <p class="fs-5 pt-5 centraliza">
+                    Conheça nosso aplicativo, você poderá abrir uma conta por lá ou em nosso site ;)
+                </p>
+                <img src="/imagens/app.png" alt="" class="px-4">
+            </div>
+
+
+
+        </section>
+        <!--FAQ-->
+        <section class="caixa-accordion mt-5">
+            <h2 class="text-center pt-4" id="faq">Dúvidas Frequentes (FAQ)</h2>
+            <section class="container pt-5">
+                <!--ACCORDION-->
+                <div class="accordion accordion-flush centraliza-accordion" id="duvidasUni">
+                    <!--O QUE É A CONTA UNIBANCO-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida1" aria-expanded="false">
+                                O que é a conta Unibanco?
+                            </button>
+                        </h2>
+                        <div id="duvida1" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>A conta do UniBanco é uma conta digital, foi criada para todas as pessoas,
+                                    especialmente universitários que
+                                    desejam um serviço transparente, simples e sem tarifas abusivas. Ela foi feita para
+                                    redefinir a maneira como você cuida do seu dinheiro. Para cumprir esse papel, a
+                                    conta do UniBanco:</p>
+
+                                <spam class="quebra-linha">— Não tem anuidade, nem taxa de manutenção;</spam>
+
+                                <spam class="quebra-linha">— Tem rendimento superior à poupança diário e automático,
+                                    desde o dia em que seu
+                                    dinheiro é depositado. Além disso, todos os depósitos contam com algum tipo de
+                                    garantia;
+                                </spam>
+
+                                <spam class="quebra-linha">— Oferece transferências gratuitas e ilimitadas para qualquer
+                                    banco;</spam>
+
+                                <spam class="quebra-linha">— Tem um cartão com função débito para você fazer compras e
+                                    saques;</spam>
+
+                                — Possibilita pagamento de boletos como conta de luz, água, telefone, compras
+                                online e mensalidades de universidades;
+                            </div>
+                        </div>
+                    </div>
+                    <!--QUEM PODE TER A CONTA UNIBANCO-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida2" aria-expanded="false">
+                                Quem pode ter a conta UniBanco?
+                            </button>
+                        </h2>
+                        <div id="duvida2" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>
+                                    A conta do Unibanco foi feita para todos. Não é preciso passar por
+                                    uma análise de crédito, você abre sua conta direto no nosso aplicativo ou site, tudo
+                                    rápido e sem burocracia.
+                                </p>
+
+                                <p>
+                                    Nossas únicas restrições são: ter no mínimo 18 anos, caso ser universitário ter seu
+                                    ID
+                                    de estudante em mãos, ser residente do Brasil e ter um
+                                    smartphone compatível com os nossos aplicativos para Android (versão 4.4 ou
+                                    superior) ou
+                                    iOS (versão 10 ou superior).
+                                </p>
+
+                                <p>
+                                    Mesmo quem não foi aprovado para ter o cartão de crédito do Nubank poderá ter a
+                                    conta.
+                                    Fazemos apenas uma análise no Serasa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--NÃO TEM TARIFA MESMO-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida3" aria-expanded="false">
+                                Não tem tarifa mesmo?
+                            </button>
+                        </h2>
+                        <div id="duvida3" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>
+                                    A conta do UniBanco não tem anuidade, você não paga nada para transferir seu dinheiro para qualquer banco nem para fazer depósitos através de um boleto. Você também não tem nenhum custo para ativar e nem para receber um cartão com a função débito.
+                                </p>
+
+                                <p>
+                                    Nossos clientes podem usar as redes Banco24Horas e Saque e Pague para fazer saques. Cada saque realizado terá uma tarifa de R$ 6,50 referente ao preço de custo por utilizarmos essas redes externas. Ou seja, só paga quem usar e quando usar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--VOU PRECISAR PASSAR POR ANÁLISE-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida4" aria-expanded="false">
+                                Vou precisar passar por análise?
+                            </button>
+                        </h2>
+                        <div id="duvida4" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>
+                                    Para ter uma conta do Unibanco não é preciso passar por nenhuma análise de crédito. Fazemos apenas uma análise cadastral. Nossas únicas restrições são: ter no mínimo 18 anos, ser residente do Brasil, estar com o CPF regular perante a Receita Federal e ter um smartphone compatível com os nossos aplicativos para Android (versão 4.4 ou superior) ou iOS (versão 10 ou superior).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--A CONTA UNIBANCO É CONTA CORRENTE OU POUPANÇA-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida5" aria-expanded="false">
+                                A conta Unibanco é conta corrente ou poupança?
+                            </button>
+                        </h2>
+                        <div id="duvida5" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>
+                                    O termo correto que define o que é a conta do UniBanco é "Conta de Pagamentos". Isso ocorre por que o UniBanco é uma instituição de pagamentos, e não um banco. Pelo mesmo motivo, nosso cartão com função débito não é tecnicamente um cartão de débito, pois, apesar da funcionalidade ser a mesma, este somente poderia ser oferecido por um banco e atrelado a uma conta de depósito.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--POSSO FAZER SAQUES COM A MINHA CONTA UNIBANCO-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#duvida6" aria-expanded="false">
+                                Posso fazer saques com a minha conta UniBanco?
+                            </button>
+                        </h2>
+                        <div id="duvida6" class="accordion-collapse collapse" data-bs-parent="#duvidasUni">
+                            <div class="accordion-body">
+                                <p>
+                                    Somos uma empresa 100% digital, mas entendemos que o dinheiro físico ainda é importante para muitos de nossos clientes. Por isso, disponibilizamos o serviço de saque utilizando a estrutura de empresas parceiras, que inclui as redes do Banco24Horas e Saque e Pague.
+                                </p>
+
+                                <p>
+                                    Usar essas redes externas de caixas implica em um custo. O valor cobrado é destinado a cobrir os custos de terceiros, como transporte e segurança do dinheiro, o aluguel do espaço em que os caixas estão e a manutenção destes equipamentos, bem como impostos e os custos operacionais internos.
+                                </p>
+
+                                <p>
+                                    Neste momento, nós entendemos que essa tarifa é a única forma de disponibilizar esse serviço para todo mundo sem limitar ou passar a cobrar por funções que julgamos ser mais importantes para os nossos clientes a longo prazo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </section>
     </main>
+
+    <footer>
+
+    </footer>
 
 
 </body>
