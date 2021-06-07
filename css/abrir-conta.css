@@ -2,3 +2,7 @@
     height: calc(100% - 200px);
     background-color: #51A5C9;
 }
+
+form {
+    width: 500px;
+}
