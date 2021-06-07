@@ -61,6 +61,24 @@
     display: block;
 }
 
+footer {
+    height: 50%;
+}
+
+.bg-footer {
+    background-color: #000;
+    color: #51A5C9!important;
+    cursor: pointer;
+}
+
+.color  {
+    color:#51A5C9!important;
+}
+
+.aumenta-palavra {
+    font-size: 20px;
+}
+
 
 
 
@@ -78,9 +96,5 @@
         padding-right: 10%;
         padding-left: 10%;
     }
-
-   
-
-   
 
 }
